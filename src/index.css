@@ -1,13 +1,93 @@
-body {
+body{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+nav {
+  height: auto;
+  display: flex;
+  background-color: aquamarine;
+  justify-content: space-between;
+}
+.logo{
+  display: flex;
+  margin: 10px;
+}
+nav .logo img{
+  height: 90px;
+}
+nav .logo h1{
+  color: yellow;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li{
+  margin: 10px;
+  color: white;
+}
+header {
+  height: 50vh;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+}
+header .hero {
+  color: white;
+  font-size: 25px;
+}
+#lad{
+  padding: (3fr 1f);
+
+}
+#lad input{
+  margin: 10px;
+  border: none;  border-bottom: solid red;
+ 
+}
+#lad button{
+  height: 40px;
+  width: 80px;
+  border-radius: 40px;
+  color: aqua;
+  background-color: black;
+}
+.bus{
+  display: flex;
+  margin: 15px;
+}
+.led{
+  background-color: aqua;
+}
+.interest{
+  background-color: aquamarine;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.interest img{
+  margin: 20px;
+}
+section{
+  background-color: gray;
+}
+section div{
+  background-position: center;
+  align-items: center;
+  color: white;
+}
+section form{
+  background-color: gray;
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+}
+form{
+  display: grid;
+}
+form input, textarea{
+  margin: 10px;
+}
+.cat{
+  display: grid;
+  grid-template-columns: 4fr 4fr;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
